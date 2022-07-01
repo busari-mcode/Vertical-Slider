@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Vertical Slider</title>
+</head>
+<body>
+    <div class="slider-container">
+        <!-- left slide -->
+        <div class="left-slide">
+            <div style="background-color: #fD3555;">
+                <h1>A researcher</h1>
+                <p>analyzing galaxies</p>
+            </div>
+            <div style="background-color: blue;">
+                <h1>Galaxy</h1>
+                <p>consists of billions of stars</p>
+            </div>
+            <div style="background-color: green;">
+                <h1>Blackhole</h1>
+                <p>nothing can escape from here (not even light)</p>
+            </div>
+            <div style="background-color: orange;">
+                <h1>Telescope</h1>
+                <p>for viewing very very distant object in the Universe</p>
+            </div>
+        </div>
+
+        <!-- right slide -->
+        <div class="right-slide">
+             <div style="background-image: url('./img/telescope.jpg')"></div>
+             <div style="background-image: url('./img/blackhole.jpg')"></div>
+             <div style="background-image: url('./img/galaxy.jpg')"></div>
+             <div style="background-image: url('./img/researcher.jpg')"></div>
+        </div>
+        <div class="action-buttons">
+            <button class="down-button">
+                <i class="fa fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+                <i class="fa fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
